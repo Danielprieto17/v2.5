@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Belleza&family=Monoton&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Viaoda+Libre&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>REGISTER</title>
+</head>
+<body class="contenedor-main">
+    <div class="container">
+        <div class="contenedor_img">
+            <a href="/index.html">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                    <path d="M32 3.172L3.172 32H12v29h40V32h8.828L32 3.172zM40 52h-8V40h-8v12h-8V27.172l16-16 16 16V52h-8z" fill="currentColor"/>
+                </svg>
+              </a>
+            <img src="/css/img.jpg" alt="Logo SENA">
+            <h1>Hola, regístrate.</h1>
+        </div>
+        <form class="contenedor-form">
+            <div class="input-group">
+                <input type="text" id="name" name="name" required placeholder="Nombre">
+                <input type="text" id="apellido" name="apellido" required placeholder="Apellido">
+                <input type="tel" id="phone" name="phone" required placeholder="Telefono">
+                <input type="text" id="direccion" name="direccion" required placeholder="Dirección">
+                <input type="text" id="ciudad" name="ciudad" required placeholder="Cedula">
+            </div>
+            <div class="linea">
+                <div class="input-group">
+                    <input type="date" id="birthdate" name="birthdate" required>
+                    <input type="text" id="genero" name="genero" required placeholder="Genero">
+                </div>
+            </div>
+            <div class="linea">
+                <div class="input-group">
+                    <input type="email" id="email" name="email" 
+                    required placeholder="Correo electronico">
+                    <input type="email" id="email" required placeholder="Confirmar correro electronico">
+                </div>
+            </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required placeholder="Contraseña">
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar Contraseña"> 
+            </div>
+        </form>
+        <div class="submit-btn">
+            <button type="submit">Registrarse</button>
+        </div>
+        <div class="box-re">
+            <p class="p-regis">¿Ya tienes una cuenta? 
+            <a class="boton-registrar" href="/login.html">Inicia sesión</a></p>
+        </div>
+    </div>
+</body>
+</html>

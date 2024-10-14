@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Belleza&family=Monoton&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Viaoda+Libre&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="contenedor-main">
+    <form class="contenedor_form">
+        <div class="contenedor_img">
+            <a href="/index.html">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                    <path d="M32 3.172L3.172 32H12v29h40V32h8.828L32 3.172zM40 52h-8V40h-8v12h-8V27.172l16-16 16 16V52h-8z" fill="currentColor"/>
+                </svg>
+              </a>
+              
+            <img class="img" src="css/img.jpg" alt="">
+            <h1>Hola, inicia sesión.</h1>
+        </div>
+        <div class="contenedor_user">
+            <div class="users">
+                <input class="input_box" id="input_ID" type="email" class="email" placeholder="Correo electronico">
+                <input class="input_box" type="password" placeholder="Contraseña">
+                <div class="check_box">
+                    <div class="contenedor_check">
+                        <input type="checkbox" id="Recordar">
+                        <label class="text_check" for="Recordar">Recordar</label>
+                    </div>
+                    <a href="">Olvidaste tu contraseña?</a>
+                </div>
+                <div class="diseño_linea">
+                    <button class="boton-ingreso">INICIAR </button>
+                    <div class="box-register">
+                        <p class="p-regis">¿Aun no tienes cuenta?</p>
+                        <a class="boton-registrar" href="/register.html">REGISTRATE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
